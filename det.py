@@ -24,7 +24,7 @@ def det_cofactor(matrix): #first row 기준 전개
             mark = (-1)**(row) #부호 결정
             det += cofactor * mark * M
  
-    return det
+    return det #det값 리턴
 
 
 #Input 파일 오픈
